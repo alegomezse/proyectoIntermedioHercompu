@@ -1,4 +1,4 @@
-all: datosEigentranspuesta.txt datosEigenMulti.txt datosTranspuesta.txt datosTranspuestaO3.txt datosMulti.txt datosMultiArmadillo.txt datosTransArmadillo.txt transpuestaSinOptimizar.png
+all: transpuestaSinOptimizar.png
 papiTranspuestaEigen.x: papiTranspuestaEigen.cpp
 	g++ papiTranspuestaEigen.cpp -o papiTranspuestaEigen.x -lpapi 
 datosEigentranspuesta.txt: papiTranspuestaEigen.x
