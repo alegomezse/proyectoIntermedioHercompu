@@ -1,23 +1,22 @@
+
 # include <iostream>
 # include <cstdio>
 # include <cstdlib>
-# include <iostream>
-# include <eigen3/Eigen/Dense>
 # include "papi.h"
-using namespace Eigen;
+#include <armadillo>
 using namespace std;
-Eigen::MatrixXd   code_to_be_measured(const Eigen::MatrixXd& m, const Eigen::MatrixXd& n);
+using namespace arma;
+mat code_to_be_measured(const mat& m,const mat& n);
 int main(int argc, char **argv)
 {
 const int N = std::atoi(argv[1]);
 for(int ii = 0; ii < N; ii++){
 
 // Matrix declaration : Modeled as  nD vectors
- int x = ii;
- int y = ii;
+
 // initialize matrices
- Eigen::MatrixXd m = Eigen::MatrixXd::Random(x,y);
- Eigen::MatrixXd n = Eigen::MatrixXd::Random(y,x);
+  mat A(ii, ii, fill::randu);
+  mat B(ii,ii, fill::randu);
 // PAPI vars
 float real_time, proc_time,mflops;
 long long flpops;
@@ -33,8 +32,8 @@ printf("Your platform may not support floating point operation event.\n");
 printf("retval: %d\n", retval);
 exit(1);
 }
-Eigen::MatrixXd  b = code_to_be_measured(m,n);
-double suma = b.sum();
+mat b = code_to_be_measured(A,B);
+double suma = accu(b);
 if((retval=PAPI_flops_rate(PAPI_FP_OPS,&real_time, &proc_time, &flpops, &mflops))<PAPI_OK)
 {
 printf("retval: %d\n", retval);
@@ -47,11 +46,11 @@ printf("%.15e\n", b);
 }
 return 0;
 }
-Eigen::MatrixXd  code_to_be_measured(const Eigen::MatrixXd& m, const Eigen::MatrixXd& n)
+
+mat code_to_be_measured(const mat& m,const mat& n)
 {
-Eigen::MatrixXd multi = m*n;
+mat multi = m*n;
 return multi;
 }
 
     
-
