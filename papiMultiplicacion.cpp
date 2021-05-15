@@ -37,7 +37,7 @@ exit(1);
 printf("Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f\n",
 real_time, proc_time,flpops,mflops);
 // Do something here, like computing the average of the resulting matrix, to avoid the optimizer deleting the code
-printf("%.15e\n", AT[0]);
+printf("%.15e\n", r);
 
 return 0;
 }
