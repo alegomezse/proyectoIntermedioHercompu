@@ -1,4 +1,4 @@
-all: datosEigentranspuesta.txt datosEigenMulti.txt datosTranspuesta.txt datosMulti.txt datosMultiArmadillo.txt
+all: datosEigentranspuesta.txt datosEigenMulti.txt datosTranspuesta.txt datosMulti.txt datosMultiArmadillo.txt datosTransArmadillo.txt
 papiTranspuestaEigen.x: papiTranspuestaEigen.cpp
 	g++ papiTranspuestaEigen.cpp -o papiTranspuestaEigen.x -lpapi 
 datosEigentranspuesta.txt: papiTranspuestaEigen.x
@@ -19,6 +19,10 @@ papiMultiplicacionArmadillo.x: papiMultiplicacionArmadillo.cpp
 	g++ papiMultiplicacionArmadillo.cpp -o papiMultiplicacionArmadillo.x -lpapi -larmadillo
 datosMultiArmadillo.txt: papiMultiplicacionArmadillo.x
 	./papiMultiplicacionArmadillo.x 100 > datosMultiArmadillo.txt
+papiTranspuestaArmadillo.x: papiTranspuestaArmadillo.cpp
+	g++ papiTranspuestaArmadillo.cpp -o papiTranspuestaArmadillo.x -lpapi -larmadillo
+datosTransArmadillo.txt: papiTranspuestaArmadillo.x
+	./papiTranspuestaArmadillo.x 100 > datosTransArmadillo.txt
 
 clean:
-	rm -f datosEigentranspuesta.txt  datosEigenMulti.txt datosTranspuesta.txt datosMulti.txt datosMultiArmadillo.txt papiTranspuestaEigen.x papiMultiplicacionEigen.x papiMultiplicacion.x papiTranspuesta.x papiMultiplicacionArmadillo.x 
+	rm -f datosEigentranspuesta.txt  datosEigenMulti.txt datosTranspuesta.txt datosMulti.txt datosMultiArmadillo.txt papiTranspuestaEigen.x papiMultiplicacionEigen.x papiMultiplicacion.x papiTranspuesta.x papiMultiplicacionArmadillo.x papiTranspuestaArmadillo.x
