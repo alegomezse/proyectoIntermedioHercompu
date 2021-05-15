@@ -26,7 +26,7 @@ int main(int argc, char **argv)
         // inicializar matrices
         for (int ii = 0; ii < N; ++ii) {
         for (int jj = 0; jj < N; ++jj) {
-                A[ii][jj] = ii + jj + 0.99;
+                A[ii][jj] = ii + (jj*N) + 0.99+N;
             AT[ii][jj] = 0.0;
             }
         }
