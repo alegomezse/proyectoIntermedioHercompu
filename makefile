@@ -24,11 +24,11 @@ papiTranspuesta.x: papiTranspuesta2.cpp
 	g++ papiTranspuesta2.cpp -o papiTranspuesta.x -lpapi -O0
 datosTranspuesta.txt: papiTranspuesta.x
 	./papiTranspuesta.x 100 > datosTranspuesta.txt
-papiTranspuesta.x: papiTranspuesta2.cpp
-	g++ papiTranspuesta2.cpp -o papiTranspuesta.x -lpapi -O3
-datosTranspuestaO3.txt: papiTranspuesta.x
+papiTranspuestaO3.x: papiTranspuesta2.cpp
+	g++ papiTranspuesta2.cpp -o papiTranspuestaO3.x -lpapi -O3
+datosTranspuestaO3.txt: papiTranspuestaO3.x
 	./papiTranspuesta.x 100 > datosTranspuestaO3.txt
 
 
 clean:
-	rm -f datosEigentranspuesta.txt  datosEigenMulti.txt datosTranspuesta.txt datosTranspuestaO3.txt datosMulti.txt datosMultiArmadillo.txt papiTranspuestaEigen.x papiMultiplicacionEigen.x papiMultiplicacion.x papiTranspuesta.x papiMultiplicacionArmadillo.x papiTranspuestaArmadillo.x 
+	rm -f datosEigentranspuesta.txt  datosEigenMulti.txt datosTranspuesta.txt datosTranspuestaO3.txt datosMulti.txt datosMultiArmadillo.txt papiTranspuestaEigen.x papiMultiplicacionEigen.x papiMultiplicacion.x papiTranspuesta.x papiTranspuestaO3.x papiMultiplicacionArmadillo.x papiTranspuestaArmadillo.x 
