@@ -27,17 +27,8 @@ papiTranspuestaO3.x: papiTranspuesta2.cpp
 	g++ papiTranspuesta2.cpp -o papiTranspuestaO3.x -lpapi -O3
 datosTranspuestaO3.txt: papiTranspuestaO3.x
 	./papiTranspuesta.x 100 > datosTranspuestaO3.txt
-report/transpuestaSinOptimizar.pdf: datosTranspuesta.txt datosTransArmadillo.txt datosEigentranspuesta.txt
-	gnuplot 
-	set term pdf
-	set out 'report/transpuestaSinOptimizar.pdf'
-	set xlabel 'Dimension Matriz'
-	set ylabel 'MFLOPS'
-	set title  'Comparación de Operación Transpuesta Sin Optimizar'
-	plot 'datosTranspuesta.txt' using 2:11 w lp, 'datosTransArmadillo.txt' using 2:11 w lp,'datosEigentranspuesta.txt' using 2:11 w lp
-
-
-
-
+report/transpuestaSinOptimizar.pdf:plotTranspuesta.gp datosTranspuesta.txt datosTransArmadillo.txt datosEigentranspuesta.txt
+	gnuplot $<
+	
 clean:
 	rm -f datosEigentranspuesta.txt  datosEigenMulti.txt datosTranspuesta.txt datosTranspuestaO3.txt datosMulti.txt datosMultiArmadillo.txt papiTranspuestaEigen.x papiMultiplicacionEigen.x papiMultiplicacion.x papiTranspuesta.x papiTranspuestaO3.x papiMultiplicacionArmadillo.x papiTranspuestaArmadillo.x report/transpuestaSinOptimizar.pdf
