@@ -33,7 +33,7 @@ printf("retval: %d\n", retval);
 exit(1);
 }
 mat b = code_to_be_measured(A,B);
-double suma = accu(b);
+
 if((retval=PAPI_flops_rate(PAPI_FP_OPS,&real_time, &proc_time, &flpops, &mflops))<PAPI_OK)
 {
 printf("retval: %d\n", retval);
@@ -42,7 +42,8 @@ exit(1);
 printf("Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f\n",
 real_time, proc_time,flpops,mflops);
 // Do something here, like computing the average of the resulting matrix, to avoid the optimizer deleting the code
-printf("%.15e\n", b);
+//printf("%.15e\n", b);
+accu(b);
 }
 return 0;
 }

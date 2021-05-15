@@ -52,7 +52,7 @@ for(int i = 0; i < sizeR;i++){
     }
   }
 
-printf("%.15e\n", suma);
+//printf("%.15e\n", suma);
 }
 return 0;
 }
