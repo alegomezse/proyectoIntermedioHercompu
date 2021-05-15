@@ -15,10 +15,10 @@ int main(int argc, char **argv)
     const int a = std::atoi(argv[1]);
    
    for(int N=0; N<a; ++N ){
-       float real_time, proc_time,mflops;
-        long long flpops;
-        float ireal_time, iproc_time, imflops;
-        long long iflpops;
+       float real_time=0.0, proc_time=0.0,mflops=0.0;
+        long long flpops=0.0;
+        float ireal_time=0.0, iproc_time=0.0, imflops=0.0;
+        long long iflpops=0.0;
         int retval;
         // Declarar matrices
         double A[N][N];
