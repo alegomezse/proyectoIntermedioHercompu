@@ -9,6 +9,7 @@ using namespace arma;
 mat code_to_be_measured(const mat& m,const mat& n);
 int main(int argc, char **argv)
 {
+  double suma ;
 const int N = std::atoi(argv[1]);
 for(int ii = 0; ii < N; ii++){
 
@@ -43,7 +44,7 @@ printf("Dimensíon_Matriz: %d Real_time: %f Proc_time: %f Total flpops: %lld MFL
 ii,real_time, proc_time,flpops,mflops);
 // Do something here, like computing the average of the resulting matrix, to avoid the optimizer deleting the code
 //printf("%.15e\n", b);
-accu(b);
+suma = accu(b);
 }
 return 0;
 }
