@@ -38,7 +38,7 @@ int main(int argc, char **argv)
     printf("Dimensíon_Matriz: %d Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f\n",
     ii,real_time, proc_time,flpops,mflops);
     // Do something here, like computing the average of the resulting matrix, to avoid the optimizer deleting the code
-    r.sum()
+    r.sum();
     //printf("%.15e\n", r.sum());
   }
   return 0;
