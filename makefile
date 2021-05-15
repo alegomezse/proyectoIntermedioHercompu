@@ -1,4 +1,4 @@
-all: datosEigentranspuesta.txt datosEigenMulti.txt datosTranspuesta.txt datosTranspuestaO3.txt datosMulti.txt datosMultiArmadillo.txt datosTransArmadillo.txt report/transpuestaSinOptimizar.png
+all: datosEigentranspuesta.txt datosEigenMulti.txt datosTranspuesta.txt datosTranspuestaO3.txt datosMulti.txt datosMultiArmadillo.txt datosTransArmadillo.txt transpuestaSinOptimizar.png
 papiTranspuestaEigen.x: papiTranspuestaEigen.cpp
 	g++ papiTranspuestaEigen.cpp -o papiTranspuestaEigen.x -lpapi 
 datosEigentranspuesta.txt: papiTranspuestaEigen.x
@@ -27,8 +27,8 @@ papiTranspuestaO3.x: papiTranspuesta2.cpp
 	g++ papiTranspuesta2.cpp -o papiTranspuestaO3.x -lpapi -O3
 datosTranspuestaO3.txt: papiTranspuestaO3.x
 	./papiTranspuesta.x 100 > datosTranspuestaO3.txt
-report/transpuestaSinOptimizar.png:plotTranspuesta.gp datosTranspuesta.txt datosTransArmadillo.txt datosEigentranspuesta.txt
+transpuestaSinOptimizar.png:plotTranspuesta.gp datosTranspuesta.txt datosTransArmadillo.txt datosEigentranspuesta.txt
 	gnuplot $<
 	
 clean:
-	rm -f datosEigentranspuesta.txt  datosEigenMulti.txt datosTranspuesta.txt datosTranspuestaO3.txt datosMulti.txt datosMultiArmadillo.txt papiTranspuestaEigen.x papiMultiplicacionEigen.x papiMultiplicacion.x papiTranspuesta.x papiTranspuestaO3.x papiMultiplicacionArmadillo.x papiTranspuestaArmadillo.x report/transpuestaSinOptimizar.png
+	rm -f datosEigentranspuesta.txt  datosEigenMulti.txt datosTranspuesta.txt datosTranspuestaO3.txt datosMulti.txt datosMultiArmadillo.txt papiTranspuestaEigen.x papiMultiplicacionEigen.x papiMultiplicacion.x papiTranspuesta.x papiTranspuestaO3.x papiMultiplicacionArmadillo.x papiTranspuestaArmadillo.x transpuestaSinOptimizar.png
