@@ -10,7 +10,7 @@ int main(int argc, char **argv)
             
         const int a = std::atoi(argv[1]);
 
-        for(int N=0;N<a;++N){
+        for(int N=1;N<=a;++N){
             // Matrix declaration : Modeled as 1D array
             // Declare as pointers and ask for memory to use the heap
             double *A = new double [N*N], *AT = new double [N*N];
@@ -42,7 +42,7 @@ int main(int argc, char **argv)
             printf("retval: %d\n", retval);
             exit(1);
             }
-            printf("Dimensíon Matriz: %d Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f\n",
+            printf("Dimensíon_Matriz: %d Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f\n",
             N,real_time, proc_time,flpops,mflops);
             // Do something here, like computing the average of the resulting matrix, to avoid the optimizer deleting the code
             //printf("%.15e\n", AT[0]);
