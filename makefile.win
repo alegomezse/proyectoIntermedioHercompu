@@ -1,0 +1,3 @@
+all: MultiplicacionEigen.pdf transpuestaEigen.pdf multiplicacionArmadillo.pdf transpuesta.pdf multiplicacion.pdf transpuesta.pdf 
+MultiplicacionEigen.pdf: MultiplicacionEigen.gp datosEigenMulti.txt
+	gnuplot MultiplicacionEigen.gp

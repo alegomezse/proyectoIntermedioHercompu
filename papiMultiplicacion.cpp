@@ -41,8 +41,7 @@ if((retval=PAPI_flops_rate(PAPI_FP_OPS,&real_time, &proc_time, &flpops, &mflops)
 printf("retval: %d\n", retval);
 exit(1);
 }
-printf("Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f\n",
-real_time, proc_time,flpops,mflops);
+printf("Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f\n",real_time, proc_time,flpops,mflops);
 // Do something here, like computing the average of the resulting matrix, to avoid the optimizer deleting the code
 int sizeR  = R.size();
 int sizeRo = R[0].size();
