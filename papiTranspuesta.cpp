@@ -29,7 +29,7 @@ int main(int argc, char **argv)
         // inicializar matrices
         for (int ii = 0; ii < N; ++ii) {
         for (int jj = 0; jj < N; ++jj) {
-                A[ii][jj] = ii + (jj*N) + 0.99+N;
+                A[ii][jj] = ii + (jj*N) + 0.99+rand() % 100;
             AT[ii][jj] = 0.0;
             }
         }
@@ -61,7 +61,7 @@ int main(int argc, char **argv)
         printf("Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f\n",
         real_time, proc_time,flpops,mflops);
         
-        long suma;
+        long long  suma;
 
          for (int ii = 0; ii < N; ++ii) {
             for (int jj = 0; jj < N; ++jj) {
@@ -69,6 +69,8 @@ int main(int argc, char **argv)
             
             }
         }
+         printf("suma: %lld\n", suma);
+
 
     }
     return 0;

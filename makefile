@@ -11,8 +11,8 @@ papiMultiplicacion.x:papiMultiplicacion.cpp
 	g++ papiMultiplicacion.cpp -o papiMultiplicacion.x -lpapi
 datosMulti.txt:papiMultiplicacion.x
 	 ./papiMultiplicacion.x 100 > datosMulti.txt
-papiTranspuesta.x: papiTranspuesta.cpp
-	g++ papiTranspuesta.cpp -o papiTranspuesta.x -lpapi
+papiTranspuesta.x: papiTranspuesta2.cpp
+	g++ papiTranspuesta2.cpp -o papiTranspuesta.x -lpapi
 datosTranspuesta.txt: papiTranspuesta.x
 	./papiTranspuesta.x 100 > datosTranspuesta.txt
 papiMultiplicacionArmadillo.x: papiMultiplicacionArmadillo.cpp

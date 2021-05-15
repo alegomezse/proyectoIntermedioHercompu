@@ -17,7 +17,7 @@ int main(int argc, char **argv)
             // initialize matrices
             for (int ii = 0; ii < N; ++ii) {
             for (int jj = 0; jj < N; ++jj) {
-            A[ii*N + jj] = ii + jj + 0.99;
+            A[ii*N + jj] = ii + jj + 0.99+rand() % 100;
             AT[ii*N + jj] = 0.0;
             }
             }
@@ -49,7 +49,7 @@ int main(int argc, char **argv)
             double suma;
             for (int ii = 0; ii < N; ++ii) {
             for (int jj = 0; jj < N; ++jj) {
-            suma += AT[ii*N +jj]; // use temporal floating point operation to count mflops
+                suma += AT[ii*N +jj]; // use temporal floating point operation to count mflops
             }
             }
             delete [] A;
