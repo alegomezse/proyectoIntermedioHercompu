@@ -1,4 +1,4 @@
-set term pdf
+set terminal pdf
 set out 'report/transpuestaSinOptimizar.pdf'
 set xlabel 'Dimension Matriz'
 set ylabel 'MFLOPS'
