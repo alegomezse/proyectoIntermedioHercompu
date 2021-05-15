@@ -55,7 +55,9 @@ std::cout << "Multiplicación A*B = " << std::endl;
             for(int k = 0;k < n;k++){
                 R[i][j] += A[i][k]*B[k][j];  
                 suma += A[i][k]*B[k][j];
-                
+                printf("i = ",i);
+                printf("j = ",j);
+                printf("k = ",k);
             }
         }
     }
