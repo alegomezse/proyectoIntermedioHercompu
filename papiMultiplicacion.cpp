@@ -28,7 +28,7 @@ printf("Your platform may not support floating point operation event.\n");
 printf("retval: %d\n", retval);
 exit(1);
 }
-code_to_be_measured(A,B);
+double r = code_to_be_measured(A,B);
 if((retval=PAPI_flops_rate(PAPI_FP_OPS,&real_time, &proc_time, &flpops, &mflops))<PAPI_OK)
 {
 printf("retval: %d\n", retval);
@@ -38,11 +38,10 @@ printf("Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f\n",
 real_time, proc_time,flpops,mflops);
 // Do something here, like computing the average of the resulting matrix, to avoid the optimizer deleting the code
 printf("%.15e\n", AT[0]);
-delete [] A;
-delete [] AT;
+
 return 0;
 }
-int code_to_be_measured(std::vector<std::vector<double>> A,std::vector<std::vector<double>> B)
+double code_to_be_measured(std::vector<std::vector<double>> A,std::vector<std::vector<double>> B)
 {
 // simple matrix multiplication
 std::cout << "Multiplicación A*B = " << std::endl;
@@ -60,5 +59,5 @@ std::cout << "Multiplicación A*B = " << std::endl;
             }
         }
     }
-  return 0;
+  return suma;
 }
