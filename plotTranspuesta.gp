@@ -1,5 +1,5 @@
-set terminal pdf
-set out 'report/transpuestaSinOptimizar.pdf'
+set terminal png
+set out 'report/transpuestaSinOptimizar.png'
 set xlabel 'Dimension Matriz'
 set ylabel 'MFLOPS'
 set title  'Comparación de Operación Transpuesta Sin Optimizar'
