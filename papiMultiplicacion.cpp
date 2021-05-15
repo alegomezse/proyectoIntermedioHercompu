@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 # include "papi.h"
-int code_to_be_measured(const double * M, double * MT), const int N;
+int  code_to_be_measured(std::vector<std::vector<double>> A,std::vector<std::vector<double>> B);
 int main(int argc, char **argv)
 {
 const int N = std::atoi(argv[1]);
@@ -49,14 +49,17 @@ std::cout << "Multiplicación A*B = " << std::endl;
     int sizeA  = A.size();
     int n = B.size();
     int sizeCB = B[0].size();
+    int suma = 0;
     std::vector<std::vector<double>> R(sizeA, std::vector<double> (sizeCB, 0));
     R = fillMatrix(R);
     for(int i = 0; i < sizeA;i++){
         for(int j = 0;j < sizeCB;j++){
             for(int k = 0;k < n;k++){
                 R[i][j] += A[i][k]*B[k][j];  
+                suma += A[i][k]*B[k][j];
+                
             }
         }
     }
-
+  return 0;
 }
