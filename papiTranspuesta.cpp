@@ -9,16 +9,17 @@
 int main(int argc, char **argv)
 {
 
-    float real_time, proc_time,mflops;
-    long long flpops;
-    float ireal_time, iproc_time, imflops;
-    long long iflpops;
-    int retval;
+  
 
     //Obtener argumentos    
     const int a = std::atoi(argv[1]);
    
    for(int N=0; N<a; ++N ){
+       float real_time, proc_time,mflops;
+        long long flpops;
+        float ireal_time, iproc_time, imflops;
+        long long iflpops;
+        int retval;
         // Declarar matrices
         double A[N][N];
         double AT[N][N];
