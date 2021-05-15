@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 # include "papi.h"
-int  code_to_be_measured(std::vector<std::vector<double>> A,std::vector<std::vector<double>> B);
+double  code_to_be_measured(std::vector<std::vector<double>> A,std::vector<std::vector<double>> B);
 int main(int argc, char **argv)
 {
 const int N = std::atoi(argv[1]);
