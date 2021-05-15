@@ -1,4 +1,4 @@
-all: datosEigentranspuesta.txt datosEigenMulti.txt datosTranspuesta.txt datosMulti.txt datosMultiArmadillo.txt datosTransArmadillo.txt
+all: datosEigentranspuesta.txt datosEigenMulti.txt datosTranspuesta.txt datosTranspuestaO3.txt datosMulti.txt datosMultiArmadillo.txt datosTransArmadillo.txt
 papiTranspuestaEigen.x: papiTranspuestaEigen.cpp
 	g++ papiTranspuestaEigen.cpp -o papiTranspuestaEigen.x -lpapi 
 datosEigentranspuesta.txt: papiTranspuestaEigen.x
@@ -19,7 +19,6 @@ papiTranspuestaArmadillo.x: papiTranspuestaArmadillo.cpp
 	g++ papiTranspuestaArmadillo.cpp -o papiTranspuestaArmadillo.x -lpapi -larmadillo
 datosTransArmadillo.txt: papiTranspuestaArmadillo.x
 	./papiTranspuestaArmadillo.x 100 > datosTransArmadillo.txt
-
 papiTranspuesta.x: papiTranspuesta2.cpp
 	g++ papiTranspuesta2.cpp -o papiTranspuesta.x -lpapi -O0
 datosTranspuesta.txt: papiTranspuesta.x
