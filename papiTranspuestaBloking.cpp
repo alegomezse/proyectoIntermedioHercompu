@@ -10,7 +10,7 @@ int main(int argc, char **argv)
             
         const int a = std::atoi(argv[1]);
 
-        for(int N=1;N<=a;++N){
+        for(int N=2;N<=a;N+=2){
             // Matrix declaration : Modeled as 1D array
             // Declare as pointers and ask for memory to use the heap
             double *A = new double [N*N], *AT = new double [N*N];
@@ -60,12 +60,17 @@ int main(int argc, char **argv)
         
     int code_to_be_measured(const double * M, double * MT, const int N)
     {
-        // simple matrix transpose
-        for (int ii = 0; ii < N; ++ii) {
-        for (int jj = 0; jj < N; ++jj) {
-            MT[ii*N +jj] = 2.3456*M[jj*N + ii]; // use temporal floating point operation to count mflops
-        }
-            
+    
+
+        for (int i = 0; i < N; i += 2) {
+            for (int j = 0; j <N; j += 2) {
+                // transpose the block beginning at [i,j]
+                for (int k = i; k < i + 2; ++k) {
+                    for (int l = j; l < j + 2; ++l) {
+                        MT[k*n + l*] = M[l*n + k];
+                    }
+                }
+            }
         }
         return 0;
     }
