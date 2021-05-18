@@ -10,7 +10,7 @@ int main(int argc, char **argv)
 {
   const int N = std::atoi(argv[1]);
    double suma;
-  for(int ii = 0; ii < N; ii+=4){
+  for(int ii = 0; ii < N; ii+=20){
 
     // Matrix declaration : Modeled as  nD vectors
 

@@ -10,7 +10,7 @@ Eigen::MatrixXd   code_to_be_measured(const Eigen::MatrixXd& m, const Eigen::Mat
 int main(int argc, char **argv)
 {double suma;
 const int N = std::atoi(argv[1]);
-for(int ii = 0; ii < N; ii+=4){
+for(int ii = 0; ii < N; ii+=20){
 
 // Matrix declaration : Modeled as  nD vectors
  int x = ii;

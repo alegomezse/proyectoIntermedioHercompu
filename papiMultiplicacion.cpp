@@ -9,7 +9,7 @@ int main(int argc, char **argv)
 {
 const int N = std::atoi(argv[1]);  double suma = 0;
 // Matrix declaration : Modeled as  nD vectors
-  for(int ii= 0; ii< N ; ii+=2){
+  for(int ii= 0; ii< N ; ii+=30){
     // initialize matrices 
     std::vector<std::vector<double>> A( N , std::vector<double> (N, 0));
     std::vector<std::vector<double>> B( N , std::vector<double> (N, 0));
