@@ -10,7 +10,7 @@ int main(int argc, char **argv)
             
         const int a = std::atoi(argv[1]);
 
-        for(int N=2;N<=a;N+=2){
+        for(int N=2;N<=a;N+=4){
             // Matrix declaration : Modeled as 1D array
             // Declare as pointers and ask for memory to use the heap
             double *A = new double [N*N], *AT = new double [N*N];
@@ -67,7 +67,7 @@ int main(int argc, char **argv)
                 // transpose the block beginning at [i,j]
                 for (int k = i; k < i + 2; ++k) {
                     for (int l = j; l < j + 2; ++l) {
-                        MT[k*n + l*] = M[l*n + k];
+                        MT[k*N + l] = M[l*n + k];
                     }
                 }
             }
