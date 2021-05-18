@@ -1,0 +1,176 @@
+Dimensíon_Matriz: 0 Real_time: 0.000022 Proc_time: 0.000020 Total flpops: 3 MFLOPS: 0.150000
+0.000000000000000e+00
+Dimensíon_Matriz: 4 Real_time: 0.000012 Proc_time: 0.000012 Total flpops: 67 MFLOPS: 5.583333
+3.539274556024147e-01
+Dimensíon_Matriz: 8 Real_time: 0.000016 Proc_time: 0.000017 Total flpops: 612 MFLOPS: 36.000000
+2.706130020804872e+00
+Dimensíon_Matriz: 12 Real_time: 0.000017 Proc_time: 0.000017 Total flpops: 1921 MFLOPS: 113.000000
+-1.839806573609724e+00
+Dimensíon_Matriz: 16 Real_time: 0.000012 Proc_time: 0.000012 Total flpops: 4403 MFLOPS: 366.916656
+-9.170943412906029e+00
+Dimensíon_Matriz: 20 Real_time: 0.000017 Proc_time: 0.000017 Total flpops: 8512 MFLOPS: 500.705872
+-9.263067860743096e+00
+Dimensíon_Matriz: 24 Real_time: 0.000019 Proc_time: 0.000020 Total flpops: 14457 MFLOPS: 722.849976
+-1.488715782674575e+01
+Dimensíon_Matriz: 28 Real_time: 0.000024 Proc_time: 0.000024 Total flpops: 22933 MFLOPS: 955.541687
+3.819579032597176e-02
+Dimensíon_Matriz: 32 Real_time: 0.000029 Proc_time: 0.000029 Total flpops: 33933 MFLOPS: 1170.103394
+-6.496154797717938e+01
+Dimensíon_Matriz: 36 Real_time: 0.000034 Proc_time: 0.000034 Total flpops: 48345 MFLOPS: 1421.911743
+1.125380474929718e+02
+Dimensíon_Matriz: 40 Real_time: 0.000043 Proc_time: 0.000044 Total flpops: 65884 MFLOPS: 1497.363647
+-1.082636090912900e+02
+Dimensíon_Matriz: 44 Real_time: 0.000053 Proc_time: 0.000053 Total flpops: 87768 MFLOPS: 1656.000000
+4.878010075139547e+01
+Dimensíon_Matriz: 48 Real_time: 0.000060 Proc_time: 0.000060 Total flpops: 113399 MFLOPS: 1889.983276
+-7.614926995616901e+01
+Dimensíon_Matriz: 52 Real_time: 0.000076 Proc_time: 0.000077 Total flpops: 144235 MFLOPS: 1873.181763
+1.105448168352928e+02
+Dimensíon_Matriz: 56 Real_time: 0.000096 Proc_time: 0.000090 Total flpops: 179559 MFLOPS: 1995.099976
+1.584232009663747e+02
+Dimensíon_Matriz: 60 Real_time: 0.000103 Proc_time: 0.000104 Total flpops: 221289 MFLOPS: 2127.778809
+4.941537747617818e+01
+Dimensíon_Matriz: 64 Real_time: 0.000138 Proc_time: 0.000138 Total flpops: 267389 MFLOPS: 1937.601440
+3.213095623070556e+01
+Dimensíon_Matriz: 68 Real_time: 0.000145 Proc_time: 0.000145 Total flpops: 321136 MFLOPS: 2214.730957
+-6.934869785679574e-01
+Dimensíon_Matriz: 72 Real_time: 0.000173 Proc_time: 0.000172 Total flpops: 380048 MFLOPS: 2209.581299
+1.675105575484650e+02
+Dimensíon_Matriz: 76 Real_time: 0.000197 Proc_time: 0.000198 Total flpops: 447413 MFLOPS: 2259.661621
+1.032191345004296e+02
+Dimensíon_Matriz: 80 Real_time: 0.000231 Proc_time: 0.000220 Total flpops: 520670 MFLOPS: 2366.681885
+3.168980396246809e+02
+Dimensíon_Matriz: 84 Real_time: 0.000259 Proc_time: 0.000259 Total flpops: 603409 MFLOPS: 2329.764404
+-3.548518096038005e+01
+Dimensíon_Matriz: 88 Real_time: 0.000293 Proc_time: 0.000287 Total flpops: 692210 MFLOPS: 2411.881592
+1.708388734823867e+02
+Dimensíon_Matriz: 92 Real_time: 0.000327 Proc_time: 0.000327 Total flpops: 792073 MFLOPS: 2422.241699
+-6.326883391746419e+02
+Dimensíon_Matriz: 96 Real_time: 0.000367 Proc_time: 0.000367 Total flpops: 897507 MFLOPS: 2445.523193
+7.511296515584081e+02
+Dimensíon_Matriz: 100 Real_time: 0.000430 Proc_time: 0.000423 Total flpops: 1016350 MFLOPS: 2402.718750
+5.869399995289660e+02
+Dimensíon_Matriz: 104 Real_time: 0.000466 Proc_time: 0.000458 Total flpops: 1140904 MFLOPS: 2491.056885
+2.947149492857721e+02
+Dimensíon_Matriz: 108 Real_time: 0.000516 Proc_time: 0.000510 Total flpops: 1278896 MFLOPS: 2507.639160
+-6.373177497698732e+01
+Dimensíon_Matriz: 112 Real_time: 0.000554 Proc_time: 0.000538 Total flpops: 1423989 MFLOPS: 2646.819824
+-3.118192306559852e+02
+Dimensíon_Matriz: 116 Real_time: 0.000539 Proc_time: 0.000533 Total flpops: 1586390 MFLOPS: 2976.341553
+-1.665167238534664e+01
+Dimensíon_Matriz: 120 Real_time: 0.000572 Proc_time: 0.000566 Total flpops: 1750198 MFLOPS: 3092.222656
+1.506986355542823e+02
+Dimensíon_Matriz: 124 Real_time: 0.000627 Proc_time: 0.000621 Total flpops: 1933299 MFLOPS: 3113.202881
+1.702231308378780e+02
+Dimensíon_Matriz: 128 Real_time: 0.000714 Proc_time: 0.000708 Total flpops: 2123161 MFLOPS: 2998.814941
+2.396182453292562e+02
+Dimensíon_Matriz: 132 Real_time: 0.000860 Proc_time: 0.000859 Total flpops: 2329346 MFLOPS: 2711.695068
+8.112632806736365e+02
+Dimensíon_Matriz: 136 Real_time: 0.000944 Proc_time: 0.000938 Total flpops: 2544789 MFLOPS: 2712.994629
+-5.942271796822956e+02
+Dimensíon_Matriz: 140 Real_time: 0.001022 Proc_time: 0.001017 Total flpops: 2778377 MFLOPS: 2731.934082
+2.163851904927290e+02
+Dimensíon_Matriz: 144 Real_time: 0.001092 Proc_time: 0.001085 Total flpops: 3019061 MFLOPS: 2782.544678
+5.727602517723579e+02
+Dimensíon_Matriz: 148 Real_time: 0.001182 Proc_time: 0.001177 Total flpops: 3280350 MFLOPS: 2787.043213
+9.482558880523982e+01
+Dimensíon_Matriz: 152 Real_time: 0.001261 Proc_time: 0.001256 Total flpops: 3548119 MFLOPS: 2824.935547
+2.637691996458523e+01
+Dimensíon_Matriz: 156 Real_time: 0.001364 Proc_time: 0.001358 Total flpops: 3841000 MFLOPS: 2828.424072
+5.566864459593593e+02
+Dimensíon_Matriz: 160 Real_time: 0.001476 Proc_time: 0.001466 Total flpops: 4142781 MFLOPS: 2825.907959
+-5.988191103355030e+02
+Dimensíon_Matriz: 164 Real_time: 0.001564 Proc_time: 0.001559 Total flpops: 4465433 MFLOPS: 2864.293213
+-6.340669420276431e+02
+Dimensíon_Matriz: 168 Real_time: 0.001663 Proc_time: 0.001653 Total flpops: 4794867 MFLOPS: 2900.706055
+-1.042492480320125e+03
+Dimensíon_Matriz: 172 Real_time: 0.001775 Proc_time: 0.001766 Total flpops: 5146359 MFLOPS: 2914.133057
+-1.014467165753113e+03
+Dimensíon_Matriz: 176 Real_time: 0.001887 Proc_time: 0.001876 Total flpops: 5506921 MFLOPS: 2935.458984
+1.019390897997347e+03
+Dimensíon_Matriz: 180 Real_time: 0.002038 Proc_time: 0.002022 Total flpops: 5899250 MFLOPS: 2917.532227
+1.683372918573640e+02
+Dimensíon_Matriz: 184 Real_time: 0.002130 Proc_time: 0.002122 Total flpops: 6293016 MFLOPS: 2965.605957
+-6.042659747735327e+02
+Dimensíon_Matriz: 188 Real_time: 0.002276 Proc_time: 0.002267 Total flpops: 6720971 MFLOPS: 2964.698242
+4.828157089843756e+02
+Dimensíon_Matriz: 192 Real_time: 0.002414 Proc_time: 0.002404 Total flpops: 7157004 MFLOPS: 2977.123047
+1.676970601997107e+03
+Dimensíon_Matriz: 196 Real_time: 0.002564 Proc_time: 0.002550 Total flpops: 7616641 MFLOPS: 2986.917969
+-3.468200588235277e+00
+Dimensíon_Matriz: 200 Real_time: 0.002691 Proc_time: 0.002677 Total flpops: 8082608 MFLOPS: 3019.278320
+7.254010287638243e+01
+Dimensíon_Matriz: 204 Real_time: 0.002916 Proc_time: 0.002897 Total flpops: 8586174 MFLOPS: 2963.815674
+-1.646329148872044e+03
+Dimensíon_Matriz: 208 Real_time: 0.003010 Proc_time: 0.002999 Total flpops: 9084682 MFLOPS: 3029.237061
+-4.666760850919399e+02
+Dimensíon_Matriz: 212 Real_time: 0.003184 Proc_time: 0.003171 Total flpops: 9627403 MFLOPS: 3036.077881
+-3.215299291385932e+01
+Dimensíon_Matriz: 216 Real_time: 0.003351 Proc_time: 0.003335 Total flpops: 10174705 MFLOPS: 3050.885986
+-9.116969946176384e+02
+Dimensíon_Matriz: 220 Real_time: 0.003540 Proc_time: 0.003528 Total flpops: 10759829 MFLOPS: 3049.838135
+5.371287549927863e+02
+Dimensíon_Matriz: 224 Real_time: 0.003724 Proc_time: 0.003708 Total flpops: 11347791 MFLOPS: 3060.353516
+2.570696190962619e+03
+Dimensíon_Matriz: 228 Real_time: 0.003925 Proc_time: 0.003912 Total flpops: 11975243 MFLOPS: 3061.156250
+2.159027364614280e+03
+Dimensíon_Matriz: 232 Real_time: 0.004111 Proc_time: 0.004090 Total flpops: 12605866 MFLOPS: 3082.118896
+1.116785885897143e+03
+Dimensíon_Matriz: 236 Real_time: 0.004342 Proc_time: 0.004317 Total flpops: 13279339 MFLOPS: 3076.057129
+-1.872894560211471e+03
+Dimensíon_Matriz: 240 Real_time: 0.004526 Proc_time: 0.004508 Total flpops: 13956815 MFLOPS: 3096.010498
+-6.232143220098025e+02
+Dimensíon_Matriz: 244 Real_time: 0.004776 Proc_time: 0.004752 Total flpops: 14677036 MFLOPS: 3088.601807
+1.672486546042098e+02
+Dimensíon_Matriz: 248 Real_time: 0.004981 Proc_time: 0.004955 Total flpops: 15402672 MFLOPS: 3108.510986
+-2.173201759740034e+02
+Dimensíon_Matriz: 252 Real_time: 0.005229 Proc_time: 0.005207 Total flpops: 16175883 MFLOPS: 3106.564697
+5.405976884119818e+02
+Dimensíon_Matriz: 256 Real_time: 0.005499 Proc_time: 0.005470 Total flpops: 16904369 MFLOPS: 3090.378174
+4.127042531897688e+02
+Dimensíon_Matriz: 260 Real_time: 0.005531 Proc_time: 0.005498 Total flpops: 17751011 MFLOPS: 3228.630859
+-1.095650553679122e+02
+Dimensíon_Matriz: 264 Real_time: 0.005732 Proc_time: 0.005708 Total flpops: 18561939 MFLOPS: 3251.916504
+1.969275438657795e+03
+Dimensíon_Matriz: 268 Real_time: 0.006052 Proc_time: 0.006028 Total flpops: 19438637 MFLOPS: 3224.723877
+8.603560390594321e+02
+Dimensíon_Matriz: 272 Real_time: 0.006284 Proc_time: 0.006260 Total flpops: 20306486 MFLOPS: 3243.847656
+-7.016501962914458e+02
+Dimensíon_Matriz: 276 Real_time: 0.006591 Proc_time: 0.006560 Total flpops: 21240371 MFLOPS: 3237.861572
+2.724144972760560e+02
+Dimensíon_Matriz: 280 Real_time: 0.006871 Proc_time: 0.006833 Total flpops: 22162275 MFLOPS: 3243.418213
+-2.283003824929336e+03
+Dimensíon_Matriz: 284 Real_time: 0.007195 Proc_time: 0.007159 Total flpops: 23148613 MFLOPS: 3233.498047
+2.960467132208767e+02
+Dimensíon_Matriz: 288 Real_time: 0.007430 Proc_time: 0.007394 Total flpops: 24116237 MFLOPS: 3261.595459
+1.036377293757138e+03
+Dimensíon_Matriz: 292 Real_time: 0.007820 Proc_time: 0.007781 Total flpops: 25169894 MFLOPS: 3234.789062
+6.217696453645518e+02
+Dimensíon_Matriz: 296 Real_time: 0.008104 Proc_time: 0.008065 Total flpops: 26156088 MFLOPS: 3243.160400
+-1.093396238214925e+03
+Dimensíon_Matriz: 300 Real_time: 0.008451 Proc_time: 0.008410 Total flpops: 27244239 MFLOPS: 3239.505371
+1.327219537314217e+03
+Dimensíon_Matriz: 304 Real_time: 0.008752 Proc_time: 0.008711 Total flpops: 28341681 MFLOPS: 3253.550781
+3.122761412592685e+02
+Dimensíon_Matriz: 308 Real_time: 0.009112 Proc_time: 0.009069 Total flpops: 29478707 MFLOPS: 3250.491455
+-7.267920420016055e+02
+Dimensíon_Matriz: 312 Real_time: 0.009426 Proc_time: 0.009381 Total flpops: 30648932 MFLOPS: 3267.128418
+-2.913437298778899e+01
+Dimensíon_Matriz: 316 Real_time: 0.009797 Proc_time: 0.009759 Total flpops: 31835454 MFLOPS: 3262.163574
+1.166684817548071e+03
+Dimensíon_Matriz: 320 Real_time: 0.010220 Proc_time: 0.010173 Total flpops: 33084305 MFLOPS: 3252.167969
+7.819104201558006e+02
+Dimensíon_Matriz: 324 Real_time: 0.010559 Proc_time: 0.010511 Total flpops: 34317036 MFLOPS: 3264.868896
+5.522795520326041e+02
+Dimensíon_Matriz: 328 Real_time: 0.010949 Proc_time: 0.010900 Total flpops: 35617402 MFLOPS: 3267.651367
+-6.637861502856117e+02
+Dimensíon_Matriz: 332 Real_time: 0.011337 Proc_time: 0.011285 Total flpops: 36919852 MFLOPS: 3271.586426
+-1.180899000318429e+03
+Dimensíon_Matriz: 336 Real_time: 0.011758 Proc_time: 0.011701 Total flpops: 38295195 MFLOPS: 3272.813965
+1.631713790338460e+03
+Dimensíon_Matriz: 340 Real_time: 0.012180 Proc_time: 0.012122 Total flpops: 39649564 MFLOPS: 3270.876465
+-1.119839898736137e+03
+Dimensíon_Matriz: 344 Real_time: 0.012737 Proc_time: 0.012647 Total flpops: 41075593 MFLOPS: 3247.852539
+4.750578942195854e+03
+Dimensíon_Matriz: 348 Real_time: 0.013207 Proc_time: 0.013148 Total flpops: 42543183 MFLOPS: 3235.715332
+-2.885186836060731e+03
