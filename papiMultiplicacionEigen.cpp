@@ -44,7 +44,7 @@ printf("Dimensíon_Matriz: %d Real_time: %f Proc_time: %f Total flpops: %lld MFL
 ii,real_time, proc_time,flpops,mflops);
 // Do something here, like computing the average of the resulting matrix, to avoid the optimizer deleting the code
  double suma = b.sum();
- printf("%.15e\n", suma);
+ //printf("%.15e\n", suma);
 }
 return 0;
 }
