@@ -12,13 +12,13 @@ papiMultiplicacionEigen.x: papiMultiplicacionEigen.cpp
 papiMultiplicacionEigenO3.x: papiMultiplicacionEigen.cpp
 	g++ papiMultiplicacionEigen.cpp -o papiMultiplicacionEigenO3.x -lpapi -O3
 datosEigenMulti.txt: papiMultiplicacionEigen.x
-	./papiMultiplicacionEigen.x 1050 > datosEigenMulti.txt
+	./papiMultiplicacionEigen.x 950 > datosEigenMulti.txt
 datosEigenMultiO3.txt: papiMultiplicacionEigenO3.x	
 	./papiMultiplicacionEigenO3.x 1050 > datosEigenMultiO3.txt
 papiMultiplicacion.x:papiMultiplicacion.cpp
 	g++ papiMultiplicacion.cpp -o papiMultiplicacion.x -lpapi
 datosMulti.txt:papiMultiplicacion.x
-	 ./papiMultiplicacion.x 1050 > datosMulti.txt
+	 ./papiMultiplicacion.x 950 > datosMulti.txt
 papiMultiplicacionO3.x:papiMultiplicacion.cpp
 	g++ papiMultiplicacion.cpp -o papiMultiplicacionO3.x -lpapi -O3
 datosMultiO3.txt:papiMultiplicacionO3.x
