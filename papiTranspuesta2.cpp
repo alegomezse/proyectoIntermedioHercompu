@@ -10,7 +10,7 @@ int main(int argc, char **argv)
         double suma;  
         const int a = std::atoi(argv[1]);
 
-        for(int N=0;N<=a;N+=20){
+        for(int N=0;N<=a;N+=30){
             // Matrix declaration : Modeled as 1D array
             // Declare as pointers and ask for memory to use the heap
             double *A = new double [N*N], *AT = new double [N*N];

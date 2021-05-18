@@ -4,57 +4,57 @@ papiTranspuestaEigen.x: papiTranspuestaEigen.cpp
 papiTranspuestaEigenO3.x: papiTranspuestaEigen.cpp	
 	g++ papiTranspuestaEigen.cpp -o papiTranspuestaEigenO3.x -lpapi -O3
 datosEigentranspuesta.txt: papiTranspuestaEigen.x
-	./papiTranspuestaEigen.x 650 > datosEigentranspuesta.txt
+	./papiTranspuestaEigen.x 1050 > datosEigentranspuesta.txt
 datosEigentranspuestaO3.txt: papiTranspuestaEigenO3.x
-	./papiTranspuestaEigenO3.x 550 > datosEigentranspuestaO3.txt
+	./papiTranspuestaEigenO3.x 1050 > datosEigentranspuestaO3.txt
 papiMultiplicacionEigen.x: papiMultiplicacionEigen.cpp
 	g++ papiMultiplicacionEigen.cpp -o papiMultiplicacionEigen.x -lpapi
 papiMultiplicacionEigenO3.x: papiMultiplicacionEigen.cpp
 	g++ papiMultiplicacionEigen.cpp -o papiMultiplicacionEigenO3.x -lpapi -O3
 datosEigenMulti.txt: papiMultiplicacionEigen.x
-	./papiMultiplicacionEigen.x 550 > datosEigenMulti.txt
+	./papiMultiplicacionEigen.x 1050 > datosEigenMulti.txt
 datosEigenMultiO3.txt: papiMultiplicacionEigenO3.x	
-	./papiMultiplicacionEigenO3.x 550 > datosEigenMultiO3.txt
+	./papiMultiplicacionEigenO3.x 1050 > datosEigenMultiO3.txt
 papiMultiplicacion.x:papiMultiplicacion.cpp
 	g++ papiMultiplicacion.cpp -o papiMultiplicacion.x -lpapi
 datosMulti.txt:papiMultiplicacion.x
-	 ./papiMultiplicacion.x 500 > datosMulti.txt
+	 ./papiMultiplicacion.x 1050 > datosMulti.txt
 papiMultiplicacionO3.x:papiMultiplicacion.cpp
 	g++ papiMultiplicacion.cpp -o papiMultiplicacionO3.x -lpapi -O3
 datosMultiO3.txt:papiMultiplicacionO3.x
-	 ./papiMultiplicacionO3.x 550 > datosMultiO3.txt
+	 ./papiMultiplicacionO3.x 1050 > datosMultiO3.txt
 papiMultiplicacionArmadillo.x: papiMultiplicacionArmadillo.cpp
 	g++ papiMultiplicacionArmadillo.cpp -o papiMultiplicacionArmadillo.x -lpapi -larmadillo
 papiMultiplicacionArmadilloO3.x: papiMultiplicacionArmadillo.cpp	
 	g++ papiMultiplicacionArmadillo.cpp -o papiMultiplicacionArmadilloO3.x -lpapi -larmadillo -O3
 datosMultiArmadillo.txt: papiMultiplicacionArmadillo.x
-	./papiMultiplicacionArmadillo.x 550 > datosMultiArmadillo.txt
+	./papiMultiplicacionArmadillo.x 1050 > datosMultiArmadillo.txt
 datosMultiArmadilloO3.txt: papiMultiplicacionArmadilloO3.x	
-	./papiMultiplicacionArmadilloO3.x 550 > datosMultiArmadilloO3.txt
+	./papiMultiplicacionArmadilloO3.x 1050 > datosMultiArmadilloO3.txt
 papiTranspuestaArmadillo.x: papiTranspuestaArmadillo.cpp
 	g++ papiTranspuestaArmadillo.cpp -o papiTranspuestaArmadillo.x -lpapi -larmadillo
 papiTranspuestaArmadilloO3.x: papiTranspuestaArmadillo.cpp	
 	g++ papiTranspuestaArmadillo.cpp -o papiTranspuestaArmadilloO3.x -lpapi -larmadillo -O3
 datosTransArmadillo.txt: papiTranspuestaArmadillo.x
-	./papiTranspuestaArmadillo.x 550 > datosTransArmadillo.txt
+	./papiTranspuestaArmadillo.x 1050 > datosTransArmadillo.txt
 datosTransArmadilloO3.txt: papiTranspuestaArmadilloO3.x	
-	./papiTranspuestaArmadilloO3.x 550 > datosTransArmadilloO3.txt
+	./papiTranspuestaArmadilloO3.x 1050 > datosTransArmadilloO3.txt
 papiTranspuesta.x: papiTranspuesta2.cpp
 	g++ papiTranspuesta2.cpp -o papiTranspuesta.x -lpapi -O0
 datosTranspuesta.txt: papiTranspuesta.x
-	./papiTranspuesta.x 550 > datosTranspuesta.txt
+	./papiTranspuesta.x 1050 > datosTranspuesta.txt
 papiTranspuestaO3.x: papiTranspuesta2.cpp
 	g++ papiTranspuesta2.cpp -o papiTranspuestaO3.x -lpapi -O3
 datosTranspuestaO3.txt: papiTranspuestaO3.x
-	./papiTranspuesta.x 550 > datosTranspuestaO3.txt
+	./papiTranspuesta.x 1050 > datosTranspuestaO3.txt
 papiTranspuestaBloking.x: papiTranspuestaBloking.cpp
 	g++ papiTranspuestaBloking.cpp -o papiTranspuestaBloking.x -lpapi -O0
 datosTranspuestaBloking.txt: papiTranspuestaBloking.x
-	./papiTranspuestaBloking.x 550 > datosTranspuestaBloking.txt
+	./papiTranspuestaBloking.x 1050 > datosTranspuestaBloking.txt
 papiTranspuestaBlokingO3.x: papiTranspuestaBloking.cpp
 	g++ papiTranspuestaBloking.cpp -o papiTranspuestaBlokingO3.x -lpapi -O3
 datosTranspuestaBlokingO3.txt: papiTranspuestaBlokingO3.x
-	./papiTranspuestaBlokingO3.x 550 > datosTranspuestaBlokingO3.txt
+	./papiTranspuestaBlokingO3.x 1050 > datosTranspuestaBlokingO3.txt
 
 #transpuestaSinOptimizar.png:plotTranspuesta.gp datosTranspuesta.txt datosTransArmadillo.txt datosEigentranspuesta.txt
 #	gnuplot $<

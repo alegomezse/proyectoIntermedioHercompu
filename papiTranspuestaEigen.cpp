@@ -10,7 +10,7 @@ int main(int argc, char **argv)
 {
   const int N = std::atoi(argv[1]);
   // Matrix declaration : Modeled as  nD vectors
-  for(int ii= 0; ii< N ; ii+=20){
+  for(int ii= 0; ii< N ; ii+=30){
     // initialize matrices 
     Eigen::MatrixXd m = Eigen::MatrixXd::Random(ii,ii);
     // PAPI vars
