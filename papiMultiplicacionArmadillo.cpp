@@ -40,8 +40,8 @@ if((retval=PAPI_flops_rate(PAPI_FP_OPS,&real_time, &proc_time, &flpops, &mflops)
 printf("retval: %d\n", retval);
 exit(1);
 }
-printf("Dimensíon_Matriz: %d Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f\n",
-ii,real_time, proc_time,flpops,mflops);
+printf("Dimensíon_Matriz: %d Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f Suma: %lf\n",
+ii,real_time, proc_time,flpops,mflops,suma);
 // Do something here, like computing the average of the resulting matrix, to avoid the optimizer deleting the code
 //printf("%.15e\n", b);
 suma = accu(b);

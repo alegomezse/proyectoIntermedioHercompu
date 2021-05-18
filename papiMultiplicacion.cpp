@@ -7,7 +7,7 @@
 std::vector<std::vector<double>> code_to_be_measured(std::vector<std::vector<double>> A,std::vector<std::vector<double>> B);
 int main(int argc, char **argv)
 {
-const int N = std::atoi(argv[1]);  int suma = 0;
+const int N = std::atoi(argv[1]);  double suma = 0;
 // Matrix declaration : Modeled as  nD vectors
   for(int ii= 0; ii< N ; ii+=2){
     // initialize matrices 
@@ -41,8 +41,8 @@ const int N = std::atoi(argv[1]);  int suma = 0;
     printf("retval: %d\n", retval);
     exit(1);
     }
-    printf("Dimensíon_Matriz: %d Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f\n",
-    ii,real_time, proc_time,flpops,mflops);
+    printf("Dimensíon_Matriz: %d Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f Suma: %lf\n",
+    ii,real_time, proc_time,flpops,mflops,suma);
     // Do something here, like computing the average of the resulting matrix, to avoid the optimizer deleting the code
     int sizeR  = R.size();
     int sizeRo = R[0].size();

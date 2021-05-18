@@ -9,7 +9,7 @@ int main(int argc, char **argv)
 
             
         const int a = std::atoi(argv[1]);
-
+        double suma;
         for(int N=2;N<=a;N+=4){
             // Matrix declaration : Modeled as 1D array
             // Declare as pointers and ask for memory to use the heap
@@ -42,11 +42,11 @@ int main(int argc, char **argv)
             printf("retval: %d\n", retval);
             exit(1);
             }
-            printf("Dimensíon_Matriz: %d Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f\n",
-            N,real_time, proc_time,flpops,mflops);
+            printf("Dimensíon_Matriz: %d Real_time: %f Proc_time: %f Total flpops: %lld MFLOPS: %f Suma: %lf\n",
+            N,real_time, proc_time,flpops,mflops,suma);
             // Do something here, like computing the average of the resulting matrix, to avoid the optimizer deleting the code
             //printf("%.15e\n", AT[0]);
-            double suma;
+         
             for (int ii = 0; ii < N; ++ii) {
             for (int jj = 0; jj < N; ++jj) {
                 suma += AT[ii*N +jj]; // use temporal floating point operation to count mflops
