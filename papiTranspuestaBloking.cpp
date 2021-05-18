@@ -67,7 +67,7 @@ int main(int argc, char **argv)
                 // transpose the block beginning at [i,j]
                 for (int k = i; k < i + 2; ++k) {
                     for (int l = j; l < j + 2; ++l) {
-                        MT[k*N + l] = M[l*n + k];
+                        MT[k*N + l] = M[l*N + k];
                     }
                 }
             }
